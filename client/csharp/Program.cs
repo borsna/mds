@@ -32,7 +32,7 @@ namespace DataCiteMetadataREST{
 
             //Test for creating/updating DOI
             System.Console.WriteLine("Set DOI 10.5072/test-data0042 URL to: http://example.com/data/42");
-            System.Console.WriteLine(dataCite.setDoi("test-data0042", "http://example.com/data/42"));
+            System.Console.WriteLine(dataCite.setDoi("10.5072/test-data0042", "http://example.com/data/42"));
 
             //Test for resolving DOI
             System.Console.WriteLine("Get DOI 10.5072/test-data0042 :");
